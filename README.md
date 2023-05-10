@@ -23,7 +23,7 @@ However, these methods can be time-consuming, and expensive, and
 require highly trained professionals to interpret the results.
 
 
-## Dataset:
+## Dataset: ([Kaggle](https://www.kaggle.com/datasets/andrewmvd/retinal-disease-classification))
 
 - The Retinal Fundus Multi-disease Image Dataset (RFMiD)
 is a set of images of the retina taken with three different fundus
@@ -33,7 +33,7 @@ in the collection. Each image is labeled with one or more of
 46 different retinal conditions, such as AMD, DR, glaucoma,
 and hypertensive retinopathy.
 
-![Random Training images]()
+![Random Training images](sample.png)
 
 ## Models:
 
@@ -55,10 +55,10 @@ Streamlit is a Python-based library that allows the creation and deployment of m
 
 Use any IDE to run the code.
 
-- Download all the requirements from the ```requirements.txt``` file.
+- Download all the requirements from the ```requirements.txt``` file using 
  ```pip install -r requirements.txt```
 
-- We need to download all the pickle files of the models (the code can be accessed here)
+- We need to download all the pickle files of the models (the code can be accessed here [code](https://github.com/Sarath2206/Retinal-Disease-Classification/blob/08f648a522878c4749839637d28385a0104baa4d/DLOPs_Models.ipynb))
 
 ```
 import pickle
@@ -69,11 +69,11 @@ pickle_out.close()
 
 - Run the app using the command:
  ```streamlit run testml.py```
- ![Webpage]()
+ ![Webpage](Model_selection.jpg)
  
  - Select the required model from the options and upload the image to predict the disease.
 
-![Prediction]()
+![Prediction](Prediction.jpg)
  
 
 
